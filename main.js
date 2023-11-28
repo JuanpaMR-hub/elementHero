@@ -6,9 +6,7 @@ let counters = ["Hierba", "Agua", "Fuego"];
 function showInfo(){
     
     let counterInfo ="0: Hierba\n1: Agua\n2: Fuego";
-
     return counterInfo;
-
 }
 
 function randomElement() {
@@ -25,6 +23,8 @@ function singleElementLevel() {
             passed = true;
             alert("Buen trabajo!");
             console.clear();
+        }else if(answer == "null"){
+            break;
         }else{
             alert("Intentalo denuevo");
         }
@@ -86,8 +86,10 @@ alert("Creo que ya lo tienes!");
 alert("oh.. ahora hay más elementos... ¿quizás si escribes los numeros continuos uno del otro funcionará? \n Ejemplo: '00'");
 multipleElementsLevel(2);
 
-alert("Maravilloso!\n Ahora tienes lo necesario para continuar");
+alert("Maravilloso!\n Ahora tienes lo necesario para continuar\nVeamos que tal sería con mas elementos");
 multipleElementsLevel(4);
+
+alert("Muy buen trabajo!\nTienes lo necesario para ser un Heroe de los Elementos");
 
 /*Posibles futuras funciones:
 1. Sistema de puntos
