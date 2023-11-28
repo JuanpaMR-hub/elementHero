@@ -25,8 +25,6 @@ function singleElementLevel() {
             passed = true;
             alert("Buen trabajo!");
             console.clear();
-        } else if(answer == null){
-            break;
         }else{
             alert("Intentalo denuevo");
         }
@@ -86,6 +84,15 @@ singleElementLevel();
 alert("Creo que ya lo tienes!");
 
 alert("oh.. ahora hay más elementos... ¿quizás si escribes los numeros continuos uno del otro funcionará? \n Ejemplo: '00'");
+multipleElementsLevel(2);
+
+alert("Maravilloso!\n Ahora tienes lo necesario para continuar");
 multipleElementsLevel(4);
+
+/*Posibles futuras funciones:
+1. Sistema de puntos
+2. Menu de acceso para seleccionar la cantidad de elementos
+3. Memorice donde no se disponga "show info"
+*/
 
 
